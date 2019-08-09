@@ -1,6 +1,6 @@
 # Auto-Invoicer
 
-A web app hosted on a self-built node server that auto-generates a payment invoice that can be sent to designated recipienr via email, requiring signature via DocuSign and payment via Stripe gateway.
+A web app hosted on a self-built node server that auto-generates a payment invoice that can be sent to designated recipient via email, requiring signature via DocuSign and payment via Stripe gateway.
 
 ## App Installation and Configuration
 
