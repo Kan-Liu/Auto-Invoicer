@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #031a2f;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: center;
+  font-size: 50px;
+  color: white;
+}
+
+.App-header2 {
+  background-color: #031a2f;
+  font-family: "Verdana";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 19px;
+  color: rgb(161, 158, 158);
+}
+
+.App-header3 {
+  background-color: #031a2f;
+  font-family: "Verdana";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: rgb(161, 158, 158);
+}
+
+.App-header4 {
+  background-color: #031a2f;
+  font-family: "Verdana";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  color: rgb(161, 158, 158);
+}
+
+.Main-Alert {
+  font-size: 20px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
