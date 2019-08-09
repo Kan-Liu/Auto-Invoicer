@@ -50,26 +50,26 @@ A web app hosted on a self-built node server that auto-generates a payment invoi
 ## App Workflow Demo
 
 1. Use the login button on this welcome page to log into your configured DocuSign account
-   ![Alt text](https://github.docusignhq.com/Integrations/Auto-Invoicer/blob/master/public/welcome.png)
+   ![Alt text](https://github.com/Kan-Liu/Auto-Invoicer/blob/master/public/welcome.png)
 1. It will lead to the OAuth2 login page for DocuSign to authenticate
-   ![Alt text](https://github.docusignhq.com/Integrations/Auto-Invoicer/blob/master/public/auth.png)
+   ![Alt text](https://github.com/Kan-Liu/Auto-Invoicer/blob/master/public/auth.png)
 1. Successful authentication will lead back to the main app page of Auto-Invoicer. The access token from OAuth2 protocol is encrypted on the node server once received for enhanced secuity
-   ![Alt text](https://github.docusignhq.com/Integrations/Auto-Invoicer/blob/master/public/main.png)
+   ![Alt text](https://github.com/Kan-Liu/Auto-Invoicer/blob/master/public/main.png)
 1. Enter Recipient Name, Email address, and Amount to generate and send the Invoice via DocuSign. Record the Envelope ID for future reference
-   ![Alt text](https://github.docusignhq.com/Integrations/Auto-Invoicer/blob/master/public/sent.png)
+   ![Alt text](https://github.com/Kan-Liu/Auto-Invoicer/blob/master/public/sent.png)
 1. An unsigned invoice proof is also downloaded for reference. The proof also includeds a spelt-out charged amount and an unsigned signature placeholder
-   ![Alt text](https://github.docusignhq.com/Integrations/Auto-Invoicer/blob/master/public/proof.png)
+   ![Alt text](https://github.com/Kan-Liu/Auto-Invoicer/blob/master/public/proof.png)
 1. The recipient will receive an email notice from DocuSign to review and pay the invoice
-   ![Alt text](https://github.docusignhq.com/Integrations/Auto-Invoicer/blob/master/public/email.png)
+   ![Alt text](https://github.com/Kan-Liu/Auto-Invoicer/blob/master/public/email.png)
 1. The link in the email will lead to the DocuSign interface for Signature and Payment
-   ![Alt text](https://github.docusignhq.com/Integrations/Auto-Invoicer/blob/master/public/dspage.png)
+   ![Alt text](https://github.com/Kan-Liu/Auto-Invoicer/blob/master/public/dspage.png)
 1. After signing and reviewing the invoice, the recipient can pay electronically via the Stripe Gateway
-   ![Alt text](https://github.docusignhq.com/Integrations/Auto-Invoicer/blob/master/public/payment.png)
+   ![Alt text](https://github.com/Kan-Liu/Auto-Invoicer/blob/master/public/payment.png)
 1. The invoice sender can also track the payment status most recent invoice sent or track invoice by its Envelope ID
-   ![Alt text](https://github.docusignhq.com/Integrations/Auto-Invoicer/blob/master/public/checkLast.png)
-   ![Alt text](https://github.docusignhq.com/Integrations/Auto-Invoicer/blob/master/public/checkId.png)
+   ![Alt text](https://github.com/Kan-Liu/Auto-Invoicer/blob/master/public/checkLast.png)
+   ![Alt text](https://github.com/Kan-Liu/Auto-Invoicer/blob/master/public/checkId.png)
 1. The user can log out from Auto-Invoicer any time using the Log Out button at the bottom of the page anytime, navigating back to the welcome page
-   ![Alt text](https://github.docusignhq.com/Integrations/Auto-Invoicer/blob/master/public/main.png)
+   ![Alt text](https://github.com/Kan-Liu/Auto-Invoicer/blob/master/public/main.png)
 
 ## Tech Stacks Involved
 
