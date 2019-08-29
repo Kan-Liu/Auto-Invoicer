@@ -2,6 +2,9 @@
 
 A web app hosted on a self-built node server that auto-generates a payment invoice that can be sent to designated recipient via email, requiring signature via DocuSign and payment via Stripe gateway.
 
+## Disclaimer
+The entire project is based on open source resources from DocuSign or elsewhere onine. In order to use this web app, the user will need to register for a DocuSign developer account for all the relevant integration keys and secret keys.
+
 ## App Installation and Configuration
 
 (Information in this section is partially from [DocuSign developer code example](https://github.com/docusign/eg-03-node-auth-code-grant). )
